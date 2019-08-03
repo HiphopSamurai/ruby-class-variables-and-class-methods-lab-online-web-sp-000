@@ -24,6 +24,7 @@ class Song
         one_each_genre << genre
       end
     end
+    return one_each_genre
   end
 
   def self.artists
