@@ -55,7 +55,7 @@ class Song
     @@artist.each do |artist|
         artist_hash[genre] += 1
     end
-    genre_hash
+    artist_hash
   end
 
 end
